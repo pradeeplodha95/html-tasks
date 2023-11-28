@@ -1,0 +1,42 @@
+*{
+  margin: 0%;  
+  padding: 0%;
+}
+.contain{
+  height: 500px;
+  width: 500px;
+  background-color: black;
+  text-align: center;
+  color:red;
+  margin-left:  36%;
+  margin-top: 6%;
+
+
+}
+#one{
+border:3px solid black;
+background-color: black;
+border-bottom:2px solid white;
+  color: white;
+  font-size: 20px;
+  width: 250px;
+  margin-top: 40px;
+  outline: none;
+}
+#two{
+  color: palevioletred;
+}
+.text button{
+  width: 120px;
+  height: 44px;
+  border: none;
+  background-color:pink;
+  font-size: 22px;
+  border-radius: 25px;
+  margin-top: 90px;
+}
+button:hover{
+ border:  3px solid aqua;
+ color: beige;
+ background-color: black;
+}

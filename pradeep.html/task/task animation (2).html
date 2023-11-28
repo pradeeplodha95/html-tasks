@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .theme-switch:hover {
+  transition: transform 2s ease-in-out;
+  transform: rotate(360deg);
+}
+.theme-switch {
+  transition: transform 2s ease-in-out;
+}
+
+.theme-switch:hover {
+  transform: rotate(360deg);
+}
+.sun-icon {
+  animation: in 4s linear 0s infinite normal;
+}
+.sun-icon:hover {
+  animation-direction: reverse;
+}
+
+@keyframes in {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="sun-container">
+        <img class="sun-icon" src="https://pragmaticpineapple.com/f9e54810e95cc8dd40f3ecfd3817b984/smooth-constant-sun-keyframes-animation.gif" />
+      </div>
+      
+</body>
+</html>
