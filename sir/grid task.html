@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            display: grid;
+            grid-template-columns: auto auto auto  auto;
+           
+
+            border: 1px solid black;
+            
+        }
+
+        .two {
+            display: grid;
+            border: 1px solid black;
+            
+
+
+        }
+
+        /* -----------one------------------------------------------------------ */
+        
+        #three2 {
+            grid-column: span 3;
+            
+        }
+
+        #three3 {
+            grid-column: span 3;
+        }
+
+        #three6 {
+            grid-column: span 3;
+        }
+
+        /* -------------------one2------------------------------------------------------------- */
+        .one2 {
+            grid-template-columns: auto auto auto;
+        }
+
+        #o2three2 {
+        
+         grid-row: span 3;
+        }
+        #o2three4{
+             grid-row: span 3;
+             
+        }
+        #o2three5{
+            grid-row: span 3;
+            
+        }
+/* ---------------------------------------------------------three---------------------------------------- */
+       .one3{
+           grid-template-columns: auto auto auto;
+       }
+           #o3three1{
+           grid-column: span 2;
+           grid-row: span 2;
+           
+       }
+    /*------------------------------four-----------------------------------------------------------  */
+    .one4{
+        grid-template-columns: auto auto auto auto auto;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    #o4three1{
+        grid-column: span 2;
+    }
+    #o4three3{
+        grid-column: span 2;
+    }
+    #o4three5{
+        
+        grid-column: span 3;
+        grid-row: span 2;
+    }
+    #o4three9{
+        grid-column: span 2;
+    }
+    #o4three11{
+        grid-column: span 2;
+    }
+    /* -------------------------------five--------------------------------------------------------- */
+    .one5{
+        grid-template-columns: auto auto auto auto auto auto;
+       
+        
+        
+    }
+    #o5three1{
+        grid-column: span 2;
+        grid-row: span 4;
+    }
+     #o5three2{
+        grid-column:span 4 ;
+        grid-row: span 2;
+    }
+     #o5three5{ 
+        grid-column:span 2 ;
+        grid-row: span 4;
+    }
+    #o5three8{
+        grid-column:span 4 ;
+        grid-row: span 2;
+    }
+    
+    
+    /* -------------------------------six--------------------------------------------------------- */
+    .one6{
+        grid-template-columns: auto auto auto;
+    }
+    #o6three4{
+        grid-column: span 3;
+        grid-row:span 4;
+    }
+   /* -------------------------------seven--------------------------------------------------------- */
+   .one7{
+        grid-template-columns: auto auto auto auto auto auto;
+    }
+    #o7three1{
+        grid-column: span 6;
+        grid-row: span 2;
+    }
+    #o7three4{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    #o7three5{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    #o7three6{
+        grid-column: span 2;
+    }
+
+     /* -------------------------------eight--------------------------------------------------------- */
+    .one8{
+        grid-template-columns: auto auto auto auto;
+    }
+    #o8three1{
+        grid-column: span 3;
+        grid-row: span 2;
+    }
+    #o8three5{
+        grid-column: span 3;
+        grid-row: span 2;
+    }
+
+
+     /* -------------------------------nine--------------------------------------------------------- */
+    .one9{
+        grid-template-columns: auto auto auto;
+    } 
+    #o9three1{
+        grid-column: span 3;
+        grid-row: span 2;
+    }
+    #o9three3{
+        
+        grid-row: span 2;
+    }
+    /* -------------------------------ten--------------------------------------------------------- */
+    .one10{
+        grid-template-columns: auto auto auto auto auto;
+    }
+    #o10three1{
+        grid-column: span 2;
+        grid-row: span 3;
+    }
+    #o10three5{
+        grid-column: span 3;
+        grid-row: span 3;
+    }
+    #o10three8{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    #o10three9{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+     /* -------------------------------11--------------------------------------------------------- */
+    .one11{
+        grid-template-columns: auto auto auto auto auto auto;
+    } 
+    #o11three1{
+        grid-column: span 3;
+        grid-row: span 2;
+    }
+    #o11three3{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    #o11three5{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    #o11three7{
+        grid-column: span 3;
+        grid-row: span 2;
+    }
+    #o11three9{
+        grid-column: span 3;
+        grid-row: span 2;
+    }
+    #o11three11{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    /* -------------------------------12--------------------------------------------------------- */
+    .one12{
+        grid-template-columns: auto auto auto;
+    }
+    #o12three4{
+        grid-column: span 3;
+        grid-row:span 4;
+    }
+     /* -------------------------------13--------------------------------------------------------- */
+    .one13{
+        grid-template-columns: auto auto auto auto auto;
+    } 
+    #o13three1{
+        grid-column: span 5;
+        grid-row: span 4;
+    }
+    /* -------------------------------14--------------------------------------------------------- */
+    .one14{
+        grid-template-columns: auto auto auto auto auto;
+    } 
+    #o14three1{
+        grid-row: span 6;
+    }
+    #o14three2{
+        grid-row: span 6;
+    }
+    #o14three3{
+        grid-row: span 6;
+    }
+    #o14three4{
+        grid-row: span 6;
+    }
+    #o14three5{
+        grid-row: span 6;
+    }
+    /* -----------------------------------15---------------------------------------------- */
+    #o15three1{
+        grid-column: span 5;
+    }
+    #o15three2{
+        grid-column: span 5;
+    }
+    #o15three3{
+        grid-column: span 5;
+    }
+    #o15three4{
+        grid-column: span 5;
+    }
+    #o15three5{
+        grid-column: span 5;
+    }
+    /* -------------------------------16--------------------------------------------------------- */
+    .one16{
+        grid-template-columns: auto auto auto auto;
+    } 
+    #o16three3{
+        grid-row: span 3;
+    }
+    #o16three5{
+        grid-row: span 2;
+        grid-column: span 2;
+    }
+    #o16three8{
+        grid-row: span 3;
+    }
+    #o16three10{
+        grid-row: span 3;
+        grid-column: span 2;
+    }
+    /* -------------------------------17--------------------------------------------------------- */
+    .one17{
+         grid-template-columns: auto auto auto auto  auto auto auto auto auto auto auto auto; 
+    } 
+    #o17three1{
+        grid-column: span 4;
+    }
+    #o17three2{
+        grid-column: span 4;
+    }
+    #o17three3{
+        grid-column: span 4;
+    }
+    #o17three4{
+        grid-column: span 3;
+    }
+    #o17three5{
+        grid-column: span 3;
+    }
+    #o17three6{
+        grid-column: span 3;
+    }
+    #o17three7{
+        grid-column: span 3;
+    }
+    #o17three8{
+        grid-column: span 4;
+    }
+    #o17three9{
+        grid-column: span 4;
+    }
+    #o17three10{
+        grid-column: span 4;
+    }
+    #o17three11{
+        grid-column: span 3;
+    }
+    #o17three12{
+        grid-column: span 3;
+    }
+    #o17three13{
+        grid-column: span 3;
+    }
+    #o17three14{
+        grid-column: span 3;
+    }
+
+    /* -------------------------------18--------------------------------------------------------- */
+    .one18{
+        grid-template-columns: auto auto auto;
+    } 
+    #o18three5{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    /* -------------------------------19--------------------------------------------------------- */
+    .one19{
+        grid-template-columns: auto auto auto auto;
+    } 
+    #o19three1{
+        grid-column: span 4;
+        grid-row: span 2;
+    }
+    #o19three2{
+        grid-column: span 4;
+        grid-row: span 2;
+    }
+    #o19three3{
+        grid-row: span 2;
+    }
+    #o19three5{
+        grid-row: span 2;
+    }
+
+    /* -------------------------------20--------------------------------------------------------- */
+    .one20{
+        grid-template-columns: auto auto auto auto;
+    } 
+    #o20three1{
+        grid-column: span 2;
+        grid-row: span 4;
+    }
+    #o20three2{
+        grid-column: span 2; 
+    }
+    #o20three5{
+        grid-column: span 2;
+        
+    }
+    /* -------------------------------21--------------------------------------------------------- */
+    .one21{
+        grid-template-columns: auto auto auto auto auto;
+    } 
+    /* -------------------------------22--------------------------------------------------------- */
+    .one22{
+        grid-template-columns: auto auto auto auto auto auto;
+    } 
+    #o22three1{
+        grid-column: span 4;
+        grid-row: span 4;
+    }
+    #o22three2{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    #o22three7{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    #o22three10{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    /* -------------------------------23--------------------------------------------------------- */
+    .one23{
+        grid-template-columns: auto auto auto auto;
+    } 
+    /* -------------------------------24--------------------------------------------------------- */
+    .one24{
+        grid-template-columns: auto auto auto;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="zero">
+        <div class="one1">
+            <div class="two" id="three1">1</div>
+            <div class="two" id="three2">2</div>
+            <div class="two" id="three3">3</div>
+            <div class="two" id="three4">4</div>
+            <div class="two" id="three5">5</div>
+            <div class="two" id="three6">6</div>
+        </div>
+        <div class="one2">
+            <div class="two" id="o2three1">1</div>
+            <div class="two" id="o2three2">2</div>
+            <div class="two" id="o2three3">3</div>
+            <div class="two" id="o2three4">4</div>
+            <div class="two" id="o2three5">5</div>
+            <div class="two" id="o2three6">6</div>
+
+        </div>
+        <div class="one3">
+            <div class="two" id="o3three1">1</div>
+            <div class="two" id="o3three2">2</div>
+            <div class="two" id="o3three3">3</div>
+            <div class="two" id="o3three4">4</div>
+            <div class="two" id="o3three5">5</div>
+            <div class="two" id="o3three6">6</div>
+        </div>
+        <div class="one4">
+            
+            <div class="two" id="o4three1">1</div>
+            <div class="two" id="o4three2">2</div>
+            <div class="two" id="o4three3">3</div>
+            <div class="two" id="o4three4">4</div>
+            <div class="two" id="o4three5">5</div>
+            <div class="two" id="o4three6">6</div>
+            <div class="two" id="o4three7">7</div>
+            <div class="two" id="o4three8">8</div>
+            <div class="two" id="o4three9">9</div>
+            <div class="two" id="o4three10">10</div>
+            <div class="two" id="o4three11">11</div>
+            
+        </div>
+        <div class="one5">
+            
+                <div class="two" id="o5three1">1</div>
+                <div class="two" id="o5three2">2</div>
+                <div class="two" id="o5three3">3</div>
+                <div class="two" id="o5three4">4</div>
+                <div class="two" id="o5three5">5</div>
+                <div class="two" id="o5three6">6</div>
+                <div class="two" id="o5three7">7</div>
+                <div class="two" id="o5three8">8</div>
+                
+            
+            
+        </div>
+        <div class="one6">
+            <div class="two" id="o6three1">1</div>
+            <div class="two" id="o6three2">2</div>
+            <div class="two" id="o6three3">3</div>
+            <div class="two" id="o6three4">4</div>
+            <div class="two" id="o6three5">5</div>
+            <div class="two" id="o6three6">6</div>
+            <div class="two" id="o6three7">7</div>
+        </div>
+        <div class="one7">
+            <div class="two" id="o7three1">1</div>
+            <div class="two" id="o7three2">2</div>
+            <div class="two" id="o7three3">3</div>
+            <div class="two" id="o7three4">4</div>
+            <div class="two" id="o7three5">5</div>
+            <div class="two" id="o7three6">6</div>
+        </div>
+        <div class="one8">
+            <div class="two" id="o8three1">1</div>
+            <div class="two" id="o8three2">2</div>
+            <div class="two" id="o8three3">3</div>
+            <div class="two" id="o8three4">4</div>
+            <div class="two" id="o8three5">5</div>
+            <div class="two" id="o8three6">6</div>
+        </div>
+        <div class="one9">
+            <div class="two" id="o9three1">1</div>
+            <div class="two" id="o9three2">2</div>
+            <div class="two" id="o9three3">3</div>
+            <div class="two" id="o9three4">4</div>
+            <div class="two" id="o9three5">5</div>
+            <div class="two" id="o9three6">6</div>
+        </div>
+        <div class="one10">
+            <div class="two" id="o10three1">1</div>
+            <div class="two" id="o10three2">2</div>
+            <div class="two" id="o10three3">3</div>
+            <div class="two" id="o10three4">4</div>
+            <div class="two" id="o10three5">5</div>
+            <div class="two" id="o10three6">6</div>
+            <div class="two" id="o10three7">7</div>
+            <div class="two" id="o10three8">8</div>
+            <div class="two" id="o10three9">9</div>
+            <div class="two" id="o10three10">10</div>
+            <div class="two" id="o10three11">11</div>
+        </div>
+        <div class="one11">
+            <div class="two" id="o11three1">1</div>
+            <div class="two" id="o11three2">2</div>
+            <div class="two" id="o11three3">3</div>
+            <div class="two" id="o11three4">4</div>
+            <div class="two" id="o11three5">5</div>
+            <div class="two" id="o11three6">6</div>
+            <div class="two" id="o11three7">7</div>
+            <div class="two" id="o11three8">8</div>
+            <div class="two" id="o11three9">9</div>
+            <div class="two" id="o11three10">10</div>
+            <div class="two" id="o11three11">11</div>
+            <div class="two" id="o11three12">12</div>
+        </div>
+        <div class="one12">
+            <div class="two" id="o12three1">1</div>
+            <div class="two" id="o12three2">2</div>
+            <div class="two" id="o12three3">3</div>
+            <div class="two" id="o12three4">4</div>
+            <div class="two" id="o12three5">5</div>
+            <div class="two" id="o12three6">6</div>
+            <div class="two" id="o12three7">7</div>
+        </div>
+        <div class="one13">
+            <div class="two" id="o13three1">1</div>
+            <div class="two" id="o13three2">2</div>
+            <div class="two" id="o13three3">3</div>
+            <div class="two" id="o13three4">4</div>
+            <div class="two" id="o13three5">5</div>
+            <div class="two" id="o13three6">6</div>
+        </div>
+        <div class="one14">
+            <div class="two" id="o14three1">1</div>
+            <div class="two" id="o14three2">2</div>
+            <div class="two" id="o14three3">3</div>
+            <div class="two" id="o14three4">4</div>
+            <div class="two" id="o14three5">5</div>
+            
+        </div>
+        <div class="one15">
+            <div class="two" id="o15three1">1</div>
+            <div class="two" id="o15three2">2</div>
+            <div class="two" id="o15three3">3</div>
+            <div class="two" id="o15three4">4</div>
+            <div class="two" id="o15three5">5</div>
+        
+        </div>
+        <div class="one16">
+            <div class="two" id="o16three1">1</div>
+            <div class="two" id="o16three2">2</div>
+            <div class="two" id="o16three3">3</div>
+            <div class="two" id="o16three4">4</div>
+            <div class="two" id="o16three5">5</div>
+            <div class="two" id="o16three6">6</div>
+            <div class="two" id="o16three7">7</div>
+            <div class="two" id="o16three8">8</div>
+            <div class="two" id="o16three9">9</div>
+            <div class="two" id="o16three10">10</div>
+            <div class="two" id="o16three11">11</div>
+            <div class="two" id="o16three12">12</div>
+        </div>
+        <div class="one17">
+            <div class="two" id="o17three1">1</div>
+            <div class="two" id="o17three2">2</div>
+            <div class="two" id="o17three3">3</div>
+            <div class="two" id="o17three4">4</div>
+            <div class="two" id="o17three5">5</div>
+            <div class="two" id="o17three6">6</div>
+            <div class="two" id="o17three7">7</div>
+            <div class="two" id="o17three8">8</div>
+            <div class="two" id="o17three9">9</div>
+            <div class="two" id="o17three10">10</div>
+            <div class="two" id="o17three11">11</div>
+            <div class="two" id="o17three12">12</div>
+            <div class="two" id="o17three13">13</div>
+            <div class="two" id="o17three14">14</div>
+        </div>
+        <div class="one18">
+            <div class="two" id="o18three1">1</div>
+            <div class="two" id="o18three2">2</div>
+            <div class="two" id="o18three3">3</div>
+            <div class="two" id="o18three4">4</div>
+            <div class="two" id="o18three5">5</div>
+            <div class="two" id="o18three6">6</div>
+            <div class="two" id="o18three7">7</div>
+            <div class="two" id="o18three8">8</div>
+            <div class="two" id="o18three9">9</div>
+        </div>
+        <div class="one19">
+            <div class="two" id="o19three1">1</div>
+            <div class="two" id="o19three2">2</div>
+            <div class="two" id="o19three3">3</div>
+            <div class="two" id="o19three4">4</div>
+            <div class="two" id="o19three5">5</div>
+            <div class="two" id="o19three6">6</div>
+            <div class="two" id="o19three7">7</div>
+            <div class="two" id="o19three8">8</div>
+        </div>
+        <div class="one20">
+            <div class="two" id="o20three1">1</div>
+            <div class="two" id="o20three2">2</div>
+            <div class="two" id="o20three3">3</div>
+            <div class="two" id="o20three4">4</div>
+            <div class="two" id="o20three5">5</div>
+            <div class="two" id="o20three6">6</div>
+            <div class="two" id="o20three7">7</div>
+        </div>
+        <div class="one21">
+            <div class="two" id="o10three1">1</div>
+            <div class="two" id="o10three2">2</div>
+            <div class="two" id="o10three3">3</div>
+            <div class="two" id="o10three4">4</div>
+            <div class="two" id="o10three5">5</div>
+            <div class="two" id="o10three6">6</div>
+            <div class="two" id="o10three7">7</div>
+            <div class="two" id="o10three8">8</div>
+            <div class="two" id="o10three9">9</div>
+            <div class="two" id="o10three10">10</div>
+            <div class="two" id="o10three11">11</div>
+        </div>
+        <div class="one22">
+            <div class="two" id="o22three1">1</div>
+            <div class="two" id="o22three2">2</div>
+            <div class="two" id="o22three3">3</div>
+            <div class="two" id="o22three4">4</div>
+            <div class="two" id="o22three5">5</div>
+            <div class="two" id="o22three6">6</div>
+            <div class="two" id="o22three7">7</div>
+            <div class="two" id="o22three8">8</div>
+            <div class="two" id="o22three9">9</div>
+            <div class="two" id="o22three10">10</div>
+            <div class="two" id="o22three11">11</div>
+            <div class="two" id="o22three12">12</div>
+        </div>
+        <div class="one23">
+            <div class="two" id="o23three1">1</div>
+            <div class="two" id="o23three2">2</div>
+            <div class="two" id="o23three3">3</div>
+            <div class="two" id="o23three4">4</div>
+            <div class="two" id="o23three5">5</div>
+            <div class="two" id="o23three6">6</div>
+            <div class="two" id="o23three7">7</div>
+            <div class="two" id="o23three8">8</div>
+            <div class="two" id="o23three9">9</div>
+            <div class="two" id="o23three10">10</div>
+            <div class="two" id="o23three11">11</div>
+            <div class="two" id="o23three12">12</div>
+        </div>
+        <div class="one24">
+            <div class="two" id="o18three1">1</div>
+            <div class="two" id="o18three2">2</div>
+            <div class="two" id="o18three3">3</div>
+            <div class="two" id="o18three4">4</div>
+            <div class="two" id="o18three5">5</div>
+            <div class="two" id="o18three6">6</div>
+            <div class="two" id="o18three7">7</div>
+            <div class="two" id="o18three8">8</div>
+            <div class="two" id="o18three9">9</div>
+        </div>
+    </div>
+</body>
+
+</html>

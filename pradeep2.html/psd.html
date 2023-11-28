@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display: grid;
+            grid-template-columns: auto auto auto ;
+            column-gap: 20px;
+            row-gap: 10px;
+            gap: 2px 1px;
+        }
+        .one{
+            padding: 20px;
+            border: 2px solid black;
+           
+        }
+        #two2{
+           grid-row:1/ span 2;
+        }
+        #two4{
+            /* grid-column-start: 2;
+            grid-column-end: 4; */
+        grid-row:2/ span 2;
+        }
+        #two6{
+            /* grid-row-start: 2;
+            grid-row-end: 4;
+            grid-column-start: 4; */
+             grid-row:2/ span 2 ; 
+        }
+        #tw{
+            grid-row: 2/span 2;
+        }
+    </style>
+</head>
+<body>
+ <div>
+    <div class="one" id="two1">1</div>
+    <div class="one" id="two2">2</div>
+    <div class="one" id="two3">3</div>
+    <div class="one" id="two4">4</div>
+    <div class="one" id="two5">5</div>
+    <div class="one" id="two6">6</div>
+    <!-- <div class="one" id="two7">7</div>
+    <div class="one" id="two8">8</div> -->
+  
+ </div>   
+</body>
+</html>
